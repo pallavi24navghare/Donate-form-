@@ -1,0 +1,84 @@
+.Footer{
+    height: 316px;
+    background:#0B132B ;
+    color: hsl(0, 0%, 100%);
+    padding: 44px 60px;
+    display: flex;
+    justify-content: space-between ;
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo1{
+    height: 43px;
+    width: 84px;
+    margin-bottom: 34px;
+}
+.declaration{
+    width: 414px;
+    /* height: 43px; */
+    
+    
+    
+}
+.disc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 133%;
+
+
+
+}
+.social-media-links{
+    font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 100%;
+
+}
+.social-media-links>p{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.social-media-links>h5{
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.social-media-links>p:hover{
+    font-size: 21px;
+}
+.social-media-links-1,
+.social-media-links-2
+{
+    font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 100%;
+
+}
+.social-media-links-1>p,
+.social-media-links-2>p
+{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.social-media-links-1>h5,
+.social-media-links-2>h5
+{
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.social-media-links-1>p:hover,
+.social-media-links-2>p:hover
+{
+    font-size: 21px;
+}
+.social-media-links-1>h5:hover,
+.social-media-links-2>h5:hover
+{
+    font-size: 21px;
+}
+ 

@@ -1,0 +1,38 @@
+.img-text{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    overflow: hidden;
+    background-image: url("./Images/img-1.png");
+    background-repeat: no-repeat;
+    height: 450px;
+}
+  
+.top{
+    width: 100%;
+    margin-left: 0;
+    
+    
+}
+.tagline-1,
+.tagline-2{
+    font-style: normal;
+    
+    line-height: 91%;
+    text-align: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.tagline-1{
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.tagline-2{
+    margin-top: 20px;
+    font-weight:normal;
+    font-size: 20px;
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: #fff;
+    color: #0B132B;
+    padding:12px;
+}
+.logo{
+    font-size: 24px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+.home,
+.rescue,
+.event,
+.about,
+.contact,
+.btn{
+    text-decoration: none;
+    font-size: 20px;
+    color:#0B132B ;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.btn{
+    border: 1px solid #2E59F3;
+    border-radius: 7px;
+} 
+.mobile-menu-icon{
+    display: none;
+}
+@media screen and (max-width:780px){
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 25px;
+    }
+    .links{
+        display: none;
+    }
+    .links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        left: 0;
+        top: 75px;
+        background-color: #fff;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .home,
+    .rescue,
+    .event,
+    .contact,
+    .about
+    .btn{
+        color:#0B132B ;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    .btn{
+        border: none;
+    }
+    .mobile-menu-icon{
+        position: absolute;
+        display: block;
+        font-size: 30px;
+        color: #0B132B;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+    }
+    
+}  
